@@ -3,9 +3,24 @@
 </p>
 
 
+
+
+
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Liebe0mv/Liebe0mv/output/github-snake.svg" alt="Spawn Snake Animation" />
+</p>
+
+
+
 <h1 align="center">
   🔥 SPAWN | NECROCODE INITIATED 🔥
 </h1>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/7207ad12-b316-422b-838e-07c58dcb15c8" alt="Spawn" width="300"/>
+</p>
+
 
 <p align="center">
   <img src="https://i.pinimg.com/originals/50/70/34/507034b2be2fa728c79b5f3bbbc9d720.gif" width="400" alt="Spawn Animated" />
