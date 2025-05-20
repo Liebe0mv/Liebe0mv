@@ -1,0 +1,27 @@
+name: Generate Snake Animation
+
+on:
+  schedule:
+    - cron: "0 0 * * *"  # todos os dias às 00h UTC
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Generate snake.svg
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: Liebe0mv
+          outputs: |
+            dist/github-snake.svg
+
+      - name: Commit and push the SVG
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 🐍 Generate GitHub Snake
+          file_pattern: dist/
